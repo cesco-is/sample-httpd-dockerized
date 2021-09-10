@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  httpd-test:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 8899:80
